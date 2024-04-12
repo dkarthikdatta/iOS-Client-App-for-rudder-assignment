@@ -1,0 +1,3948 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventHandler",
+        "printedName": "EventHandler",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifiers",
+            "printedName": "identifiers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identifiers",
+                "printedName": "SDK_Assignment.Identifiers",
+                "usr": "s:14SDK_Assignment11IdentifiersC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment12EventHandlerC11identifiersAA11IdentifiersCvp",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC11identifiersAA11IdentifiersCvp",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identifiers",
+                    "printedName": "SDK_Assignment.Identifiers",
+                    "usr": "s:14SDK_Assignment11IdentifiersC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment12EventHandlerC11identifiersAA11IdentifiersCvg",
+                "mangledName": "$s14SDK_Assignment12EventHandlerC11identifiersAA11IdentifiersCvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interactor",
+            "printedName": "interactor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Interactor",
+                "printedName": "SDK_Assignment.Interactor",
+                "usr": "s:14SDK_Assignment10InteractorC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment12EventHandlerC10interactorAA10InteractorCvp",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC10interactorAA10InteractorCvp",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Interactor",
+                    "printedName": "SDK_Assignment.Interactor",
+                    "usr": "s:14SDK_Assignment10InteractorC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment12EventHandlerC10interactorAA10InteractorCvg",
+                "mangledName": "$s14SDK_Assignment12EventHandlerC10interactorAA10InteractorCvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKOptions",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions",
+                    "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment12EventHandlerC7optionsAA17ExampleSDKOptionsCSgvp",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC7optionsAA17ExampleSDKOptionsCSgvp",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKOptions",
+                        "printedName": "SDK_Assignment.ExampleSDKOptions",
+                        "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment12EventHandlerC7optionsAA17ExampleSDKOptionsCSgvg",
+                "mangledName": "$s14SDK_Assignment12EventHandlerC7optionsAA17ExampleSDKOptionsCSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(identifiers:interactor:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventHandler",
+                "printedName": "SDK_Assignment.EventHandler",
+                "usr": "s:14SDK_Assignment12EventHandlerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Identifiers",
+                "printedName": "SDK_Assignment.Identifiers",
+                "usr": "s:14SDK_Assignment11IdentifiersC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Interactor",
+                "printedName": "SDK_Assignment.Interactor",
+                "usr": "s:14SDK_Assignment10InteractorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKOptions",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions",
+                    "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment12EventHandlerC11identifiers10interactor7optionsAcA11IdentifiersC_AA10InteractorCAA17ExampleSDKOptionsCSgtcfc",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC11identifiers10interactor7optionsAcA11IdentifiersC_AA10InteractorCAA17ExampleSDKOptionsCSgtcfc",
+            "moduleName": "SDK_Assignment",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment12EventHandlerC04sendC0yySSSg_SDySSypGSgSStF",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC04sendC0yySSSg_SDySSypGSgSStF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processRequestData",
+            "printedName": "processRequestData(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment12EventHandlerC18processRequestDataySDySSypGSSSg_AESgAFtF",
+            "mangledName": "$s14SDK_Assignment12EventHandlerC18processRequestDataySDySSypGSSSg_AESgAFtF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment12EventHandlerC",
+        "mangledName": "$s14SDK_Assignment12EventHandlerC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Constants",
+        "printedName": "Constants",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "BASE_URL",
+            "printedName": "BASE_URL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV8BASE_URLSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV8BASE_URLSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV8BASE_URLSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV8BASE_URLSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "EVENTS_END_POINT",
+            "printedName": "EVENTS_END_POINT",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV16EVENTS_END_POINTSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV16EVENTS_END_POINTSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV16EVENTS_END_POINTSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV16EVENTS_END_POINTSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "API_KEY",
+            "printedName": "API_KEY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV7API_KEYSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV7API_KEYSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV7API_KEYSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV7API_KEYSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USER_PROPERTIES",
+            "printedName": "USER_PROPERTIES",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV15USER_PROPERTIESSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV15USER_PROPERTIESSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV15USER_PROPERTIESSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV15USER_PROPERTIESSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USER_IDENTITIES",
+            "printedName": "USER_IDENTITIES",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV15USER_IDENTITIESSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV15USER_IDENTITIESSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV15USER_IDENTITIESSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV15USER_IDENTITIESSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "EVENT_NAME",
+            "printedName": "EVENT_NAME",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV10EVENT_NAMESSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV10EVENT_NAMESSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV10EVENT_NAMESSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV10EVENT_NAMESSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "EVENT_PROPERTIES",
+            "printedName": "EVENT_PROPERTIES",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV16EVENT_PROPERTIESSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV16EVENT_PROPERTIESSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV16EVENT_PROPERTIESSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV16EVENT_PROPERTIESSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "TIME_STAMP",
+            "printedName": "TIME_STAMP",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV10TIME_STAMPSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV10TIME_STAMPSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV10TIME_STAMPSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV10TIME_STAMPSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEVICE_INFO",
+            "printedName": "DEVICE_INFO",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV11DEVICE_INFOSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV11DEVICE_INFOSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV11DEVICE_INFOSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV11DEVICE_INFOSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEVICE_ID",
+            "printedName": "DEVICE_ID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV9DEVICE_IDSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV9DEVICE_IDSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV9DEVICE_IDSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV9DEVICE_IDSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DEVICE_MODEL",
+            "printedName": "DEVICE_MODEL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV12DEVICE_MODELSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV12DEVICE_MODELSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV12DEVICE_MODELSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV12DEVICE_MODELSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "IOS_VERSION",
+            "printedName": "IOS_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment9ConstantsV11IOS_VERSIONSSvpZ",
+            "mangledName": "$s14SDK_Assignment9ConstantsV11IOS_VERSIONSSvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment9ConstantsV11IOS_VERSIONSSvgZ",
+                "mangledName": "$s14SDK_Assignment9ConstantsV11IOS_VERSIONSSvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Constants",
+                "printedName": "SDK_Assignment.Constants",
+                "usr": "s:14SDK_Assignment9ConstantsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment9ConstantsVACycfc",
+            "mangledName": "$s14SDK_Assignment9ConstantsVACycfc",
+            "moduleName": "SDK_Assignment",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14SDK_Assignment9ConstantsV",
+        "mangledName": "$s14SDK_Assignment9ConstantsV",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Utility",
+        "printedName": "Utility",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hashDictionary",
+            "printedName": "hashDictionary(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment7UtilityC14hashDictionary4dictSDySSypGAF_tFZ",
+            "mangledName": "$s14SDK_Assignment7UtilityC14hashDictionary4dictSDySSypGAF_tFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment7UtilityC4hash4dataSS10Foundation4DataV_tFZ",
+            "mangledName": "$s14SDK_Assignment7UtilityC4hash4dataSS10Foundation4DataV_tFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceInfo",
+            "printedName": "getDeviceInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment7UtilityC13getDeviceInfoSDySSypGyFZ",
+            "mangledName": "$s14SDK_Assignment7UtilityC13getDeviceInfoSDySSypGyFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Utility",
+                "printedName": "SDK_Assignment.Utility",
+                "usr": "s:14SDK_Assignment7UtilityC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment7UtilityCACycfc",
+            "mangledName": "$s14SDK_Assignment7UtilityCACycfc",
+            "moduleName": "SDK_Assignment",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment7UtilityC",
+        "mangledName": "$s14SDK_Assignment7UtilityC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExampleSDKOptions",
+        "printedName": "ExampleSDKOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hashUserIDs",
+            "printedName": "hashUserIDs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvp",
+            "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvg",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvs",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvM",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC11hashUserIDsSbvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useCustomEndPoint",
+            "printedName": "useCustomEndPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvp",
+            "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvg",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvs",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvM",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC17useCustomEndPointSbvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customEndPoint",
+            "printedName": "customEndPoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvp",
+            "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvg",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvs",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvM",
+                "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC14customEndPointSSSgvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptions",
+                "printedName": "SDK_Assignment.ExampleSDKOptions",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment17ExampleSDKOptionsCACycfc",
+            "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsCACycfc",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment17ExampleSDKOptionsC",
+        "mangledName": "$s14SDK_Assignment17ExampleSDKOptionsC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExampleSDKLogLevel",
+        "printedName": "ExampleSDKLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO7verboseyA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO7verboseyA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO5debugyA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO5debugyA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO4infoyA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO4infoyA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO7warningyA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO7warningyA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO5erroryA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO5erroryA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDK_Assignment.ExampleSDKLogLevel.Type) -> SDK_Assignment.ExampleSDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKLogLevel",
+                        "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO4noneyA2CmF",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO4noneyA2CmF",
+            "moduleName": "SDK_Assignment"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKLogLevel",
+                    "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                    "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "SDK_Assignment",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO8rawValueSivp",
+            "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO8rawValueSivp",
+            "moduleName": "SDK_Assignment",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO8rawValueSivg",
+                "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO8rawValueSivg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO",
+        "mangledName": "$s14SDK_Assignment18ExampleSDKLogLevelO",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Interactor",
+        "printedName": "Interactor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKOptions",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions",
+                    "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment10InteractorC7optionsAA17ExampleSDKOptionsCSgvp",
+            "mangledName": "$s14SDK_Assignment10InteractorC7optionsAA17ExampleSDKOptionsCSgvp",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDKOptions",
+                        "printedName": "SDK_Assignment.ExampleSDKOptions",
+                        "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment10InteractorC7optionsAA17ExampleSDKOptionsCSgvg",
+                "mangledName": "$s14SDK_Assignment10InteractorC7optionsAA17ExampleSDKOptionsCSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Interactor",
+                "printedName": "SDK_Assignment.Interactor",
+                "usr": "s:14SDK_Assignment10InteractorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKOptions",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions",
+                    "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment10InteractorC7optionsAcA17ExampleSDKOptionsCSg_tcfc",
+            "mangledName": "$s14SDK_Assignment10InteractorC7optionsAcA17ExampleSDKOptionsCSg_tcfc",
+            "moduleName": "SDK_Assignment",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment10InteractorC9sendEventyySDySSypG_SStF",
+            "mangledName": "$s14SDK_Assignment10InteractorC9sendEventyySDySSypG_SStF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment10InteractorC",
+        "mangledName": "$s14SDK_Assignment10InteractorC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "SDK_Assignment.Logger",
+                "usr": "s:14SDK_Assignment6LoggerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment6LoggerCACycfc",
+            "mangledName": "$s14SDK_Assignment6LoggerCACycfc",
+            "moduleName": "SDK_Assignment",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initiate",
+            "printedName": "initiate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKLogLevel",
+                "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC8initiateyyAA18ExampleSDKLogLevelOFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC8initiateyyAA18ExampleSDKLogLevelOFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logVerbose",
+            "printedName": "logVerbose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC10logVerboseyySSFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC10logVerboseyySSFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logDebug",
+            "printedName": "logDebug(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC8logDebugyySSFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC8logDebugyySSFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC7logInfoyySSFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC7logInfoyySSFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logWarn",
+            "printedName": "logWarn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC7logWarnyySSFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC7logWarnyySSFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logError",
+            "printedName": "logError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC8logErroryySSFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC8logErroryySSFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLogLevel",
+            "printedName": "getLogLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment6LoggerC11getLogLevelSiyFZ",
+            "mangledName": "$s14SDK_Assignment6LoggerC11getLogLevelSiyFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment6LoggerC",
+        "mangledName": "$s14SDK_Assignment6LoggerC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Identifiers",
+        "printedName": "Identifiers",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userProperties",
+            "printedName": "userProperties",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvp",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvg",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvs",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvM",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userPropertiesSDySSypGSgvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userIdentities",
+            "printedName": "userIdentities",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvp",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvg",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvs",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvM",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC14userIdentitiesSDySSypGSgvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceInfo",
+            "printedName": "deviceInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvp",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvp",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvg",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvg",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvs",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvs",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvM",
+                "mangledName": "$s14SDK_Assignment11IdentifiersC10deviceInfoSDySSypGSgvM",
+                "moduleName": "SDK_Assignment",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identifiers",
+                "printedName": "SDK_Assignment.Identifiers",
+                "usr": "s:14SDK_Assignment11IdentifiersC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment11IdentifiersCACycfc",
+            "mangledName": "$s14SDK_Assignment11IdentifiersCACycfc",
+            "moduleName": "SDK_Assignment",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveAPIKey",
+            "printedName": "saveAPIKey(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC10saveAPIKey3keyySS_tF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC10saveAPIKey3keyySS_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserProperties",
+            "printedName": "setUserProperties(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC17setUserProperties10propertiesySDySSypGSg_tF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC17setUserProperties10propertiesySDySSypGSg_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserPropertiesNil",
+            "printedName": "setUserPropertiesNil()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC20setUserPropertiesNilyyF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC20setUserPropertiesNilyyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserProperties",
+            "printedName": "getUserProperties()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC17getUserPropertiesSDySSypGSgyF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC17getUserPropertiesSDySSypGSgyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserIdentities",
+            "printedName": "setUserIdentities(identities:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC17setUserIdentities10identitiesySDySSypGSg_tF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC17setUserIdentities10identitiesySDySSypGSg_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserIdentitiesNil",
+            "printedName": "setUserIdentitiesNil()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC20setUserIdentitiesNilyyF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC20setUserIdentitiesNilyyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserIdentities",
+            "printedName": "getUserIdentities()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC17getUserIdentitiesSDySSypGSgyF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC17getUserIdentitiesSDySSypGSgyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceInfo",
+            "printedName": "getDeviceInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment11IdentifiersC13getDeviceInfoSDySSypGSgyF",
+            "mangledName": "$s14SDK_Assignment11IdentifiersC13getDeviceInfoSDySSypGSgyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment11IdentifiersC",
+        "mangledName": "$s14SDK_Assignment11IdentifiersC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExampleSDKOptionsBuilder",
+        "printedName": "ExampleSDKOptionsBuilder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptionsBuilder",
+                "printedName": "SDK_Assignment.ExampleSDKOptionsBuilder",
+                "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderCACycfc",
+            "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderCACycfc",
+            "moduleName": "SDK_Assignment",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setHashUserIDs",
+            "printedName": "setHashUserIDs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptionsBuilder",
+                "printedName": "SDK_Assignment.ExampleSDKOptionsBuilder",
+                "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC14setHashUserIDsyACSbF",
+            "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderC14setHashUserIDsyACSbF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUseCustomEndPoint",
+            "printedName": "setUseCustomEndPoint(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptionsBuilder",
+                "printedName": "SDK_Assignment.ExampleSDKOptionsBuilder",
+                "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC20setUseCustomEndPointyACSbF",
+            "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderC20setUseCustomEndPointyACSbF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomEndPoint",
+            "printedName": "setCustomEndPoint(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptionsBuilder",
+                "printedName": "SDK_Assignment.ExampleSDKOptionsBuilder",
+                "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC17setCustomEndPointyACSSSgF",
+            "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderC17setCustomEndPointyACSSSgF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKOptions",
+                "printedName": "SDK_Assignment.ExampleSDKOptions",
+                "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC5buildAA0cD0CyF",
+            "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderC5buildAA0cD0CyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment24ExampleSDKOptionsBuilderC",
+        "mangledName": "$s14SDK_Assignment24ExampleSDKOptionsBuilderC",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDK_Assignment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExampleSDK",
+        "printedName": "ExampleSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDKOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDKOptions",
+                    "printedName": "SDK_Assignment.ExampleSDKOptions",
+                    "usr": "s:14SDK_Assignment17ExampleSDKOptionsC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C10initialize6apiKey7optionsySS_AA0C10SDKOptionsCSgtFZ",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C10initialize6apiKey7optionsySS_AA0C10SDKOptionsCSgtFZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDK_Assignment.ExampleSDK?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExampleSDK",
+                    "printedName": "SDK_Assignment.ExampleSDK",
+                    "usr": "s:14SDK_Assignment07ExampleA0C"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SDK_Assignment07ExampleA0C6sharedACSgvpZ",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C6sharedACSgvpZ",
+            "moduleName": "SDK_Assignment",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SDK_Assignment.ExampleSDK?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExampleSDK",
+                        "printedName": "SDK_Assignment.ExampleSDK",
+                        "usr": "s:14SDK_Assignment07ExampleA0C"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SDK_Assignment07ExampleA0C6sharedACSgvgZ",
+                "mangledName": "$s14SDK_Assignment07ExampleA0C6sharedACSgvgZ",
+                "moduleName": "SDK_Assignment",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C9sendEvent4nameySS_tF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C9sendEvent4nameySS_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(name:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C9sendEvent4name10propertiesySS_SDySSypGSgtF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C9sendEvent4name10propertiesySS_SDySSypGSgtF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserProperties",
+            "printedName": "setUserProperties(properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C17setUserProperties10propertiesySDySSypGSg_tF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C17setUserProperties10propertiesySDySSypGSg_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUserProperties",
+            "printedName": "resetUserProperties()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C19resetUserPropertiesyyF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C19resetUserPropertiesyyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserIdentities",
+            "printedName": "setUserIdentities(identities:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C17setUserIdentities10identitiesySDySSypGSg_tF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C17setUserIdentities10identitiesySDySSypGSg_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetUserIdentities",
+            "printedName": "resetUserIdentities()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C19resetUserIdentitiesyyF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C19resetUserIdentitiesyyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logOut",
+            "printedName": "logOut()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C6logOutyyF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C6logOutyyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleSDKLogLevel",
+                "printedName": "SDK_Assignment.ExampleSDKLogLevel",
+                "usr": "s:14SDK_Assignment18ExampleSDKLogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C11setLogLevel5levelyAA0c6SDKLogF0O_tF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C11setLogLevel5levelyAA0c6SDKLogF0O_tF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIdentifier",
+            "printedName": "getIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Identifiers",
+                "printedName": "SDK_Assignment.Identifiers",
+                "usr": "s:14SDK_Assignment11IdentifiersC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C13getIdentifierAA11IdentifiersCyF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C13getIdentifierAA11IdentifiersCyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEventHandler",
+            "printedName": "getEventHandler()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventHandler",
+                "printedName": "SDK_Assignment.EventHandler",
+                "usr": "s:14SDK_Assignment12EventHandlerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SDK_Assignment07ExampleA0C15getEventHandlerAA0eF0CyF",
+            "mangledName": "$s14SDK_Assignment07ExampleA0C15getEventHandlerAA0eF0CyF",
+            "moduleName": "SDK_Assignment",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14SDK_Assignment07ExampleA0C",
+        "mangledName": "$s14SDK_Assignment07ExampleA0C",
+        "moduleName": "SDK_Assignment",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 25,
+      "value": "\"https:\/\/www.example.com\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 8,
+      "value": "\"\/event\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 17,
+      "value": "\"user_properties\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 17,
+      "value": "\"user_identities\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 12,
+      "value": "\"event_name\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 18,
+      "value": "\"event_properties\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 12,
+      "value": "\"time_stamp\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 13,
+      "value": "\"device_info\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 13,
+      "value": "\"ios_version\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 203,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 155,
+      "length": 17,
+      "value": "\"ExampleSDKStack\""
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/karthikdatta\/Desktop\/sdk-assigment-dkarthikdatta\/SDK Assignment\/SDK Assignment\/ExampleSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 27,
+      "value": "\"com.exampleSDK.eventQueue\""
+    }
+  ]
+}

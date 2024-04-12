@@ -1,0 +1,11 @@
+framework module SDK_Assignment {
+  umbrella header "SDK_Assignment.h"
+  export *
+
+  module * { export * }
+}
+
+module SDK_Assignment.Swift {
+  header "SDK_Assignment-Swift.h"
+  requires objc
+}
